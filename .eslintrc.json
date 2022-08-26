@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "no-console": 0,
+        "no-lone-blocks": 0,
+        "no-unused-vars": 0,
+        "no-plusplus": 0,
+        "no-bitwise": 0,
+        "no-param-reassign": 0,
+        "camelcase": "off",
+        "@typescript-eslint/camelcase": ["off"],
+        "no-var": "ERROR",
+        "prefer-const": "ERROR"
+    }
+}

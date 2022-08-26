@@ -1,0 +1,3 @@
+[submodule "eslintPrettier"]
+	path = eslintPrettier
+	url = git@github.com:pietow/eslintPrettier.git
